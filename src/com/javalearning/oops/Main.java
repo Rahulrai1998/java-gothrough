@@ -1,4 +1,4 @@
-package oops;
+package com.javalearning.oops;
 
 public class Main {
     public static void main(String[] args) {
@@ -15,6 +15,13 @@ public class Main {
         Animal dog = new Dog();
         dog.makeSound();
 
-
+System.out.println(sum(1,2,3));
+    }
+    public static int sum(int ...n){
+        int sm = 0;
+        for (int i:n){
+            sm+=i;
+        }
+        return sm;
     }
 }

@@ -1,4 +1,4 @@
-package oops;
+package com.javalearning.oops;
 
 public class Cat extends Animal{
     String species;
